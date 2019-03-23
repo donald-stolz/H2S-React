@@ -7,11 +7,11 @@
 - [Components](#components)
 - [State](#state)
 - [Props](#props)
-- [Data & Lifecycle Methods](data-&-lifecycle-methods)
-- [Forms](forms)
-- [Events](events)
-- [Keys](keys)
-- [Routing](routing)
+- [Data & Lifecycle Methods](#data---lifecycle-methods)
+- [Forms](#forms)
+- [Events](#events)
+- [Keys](#keys)
+- [Routing](#routing)
 
 ## Project Setup
 
@@ -33,7 +33,7 @@ State is how we keep track of data. We should simplfy our state as much as possi
 
 Props are data passed to child components. They are immutable. Containers should be in charge of state, while their child components should only contain props.
 
-### Data & Lifecycle Methods
+## Data & Lifecycle Methods
 
 Here I will go over the relevant lifecycle methods and how to fetch data from an API.
 

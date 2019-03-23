@@ -1,68 +1,54 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# H2S Frontend with React
 
-## Available Scripts
+### Table of Contents
 
-In the project directory, you can run:
+- [Project Setup](#project-setup)
+- [Templating](#templating)
+- [Components](#components)
+- [State](#state)
+- [Props](#props)
+- [Data & Lifecycle Methods](data-&-lifecycle-methods)
+- [Forms](forms)
+- [Events](events)
+- [Keys](keys)
+- [Routing](routing)
 
-### `npm start`
+## Project Setup
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Welcome to the world of client-side development. This is where we will setup our first project and run our first demo app.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Templating
 
-### `npm test`
+Templating in React is very similar to writing regular HTML. If we want to return multiple elements everything must be nested/wrapped in a single element.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Components
 
-### `npm run build`
+Web components allow for modularity and code reuseability.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## State
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+State is how we keep track of data. We should simplfy our state as much as possible and try to minimize the number of stateful components. We can achieve this by creating containers/pages that manage discrete states.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Props
 
-### `npm run eject`
+Props are data passed to child components. They are immutable. Containers should be in charge of state, while their child components should only contain props.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Data & Lifecycle Methods
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Here I will go over the relevant lifecycle methods and how to fetch data from an API.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Forms
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Here we will begin to actually create the final todo app. We will start with creating an input component.
 
-## Learn More
+## Events
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Here we will create an onClick method for handling form submission. Create a button component.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Keys
 
-### Code Splitting
+Now we will create our Todo item component and use Array.map to fill our Todo list.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Routing
 
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+We will create a mock Homepage and small header component.
